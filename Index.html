@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARAN-VI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Welcome screen -->
+    <div id="welcome-screen">
+        <h1>Welcome to ARAN-VI</h1>
+        <p>Please select your preferred language and accessibility settings</p>
+        <select id="language-select">
+            <option value="en">English</option>
+            <option value="af">Afrikaans</option>
+        </select>
+        <button id="accessibility-btn">Accessibility Settings</button>
+    </div>
+
+    <!-- Map view -->
+    <div id="map-view">
+        <div id="map"></div>
+        <select id="poi-select">
+            <option value="banks">Banks</option>
+            <option value="shopping-centers">Shopping Centers</option>
+            <option value="restaurants">Restaurants</option>
+        </select>
+        <button id="nav-btn">Navigate</button>
+    </div>
+
+    <!-- Script tags -->
+    <script src="script.js"></script>
+</body>
+</html>
